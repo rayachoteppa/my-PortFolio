@@ -1,0 +1,18 @@
+.project-background{
+    background-color: rgb(20,18,54);
+}
+
+.transitionP:hover{
+    transform:scaleY(1.1);
+    /* height: 300px; */
+    margin-top: -10px;
+    transition: 1s ease-in;
+    box-shadow: 5px 5px 10px 10px rgb(53, 53, 84);
+    cursor: pointer;
+}
+
+.back{
+    background: url("../../public/images/back.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}

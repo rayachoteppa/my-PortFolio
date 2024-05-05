@@ -1,0 +1,110 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+
+
+ 
+  .home-svg{
+    background:url("../../public/images/home_svg.svg");
+    background-repeat: no-repeat;
+    background-size:90% 100%;
+}
+
+.contact-svg{
+  background:url("../../public/images/contact.svg");
+  background-repeat: no-repeat;
+  background-size:80% 60%;
+}
+
+
+
+.background-color{
+    /* background-color: rgb(9,6,26);
+     */
+     background: rgb(2,0,36);
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,34,56,1) 56%, rgba(30,33,51,1) 63%, rgba(18,26,28,1) 100%);
+}
+
+.hi-png{
+    background: url("../../public/images/hi.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.h1-text{
+    font-size:50px;
+     font-family:'Times New Roman', Times, serif;
+     
+     /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; */
+     
+    font-weight: bolder;
+}
+
+.h1-textMobile{
+    font-size:30px;
+    /* font-family:'Times New Roman', Times, serif;
+     */
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+}
+
+
+
+.typewriter{
+    color: #fff;
+    /* font-family: monospace; */
+    overflow: hidden; 
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end ;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+}
+
+/* contact */
+
+
+.github-png{
+  background: url("../../public/images/github.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.linked-png{
+  background: url("../../public/images/linked.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.gmail-png{
+  background: url("../../public/images/gmail.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.linkBack{
+  background-color:rgb(20,18,34);
+}

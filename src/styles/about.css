@@ -1,0 +1,121 @@
+.backimg{
+    background-image: url("../../public/images/rayachoti-profile.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition: transform 2s ease;
+}
+
+.rounded{
+    background-color:rgb(238,144,58);
+    border-radius: 50%;
+    
+}
+
+.roundedMobile{
+    background-color:rgb(26,27,51);
+    border-radius: 50%;
+    height: 200px;
+    width: 100px;
+    margin-top: 50px;
+}
+.home{
+   
+    padding: 0px;
+    margin: 0px;
+}
+
+.bghover:hover{
+    background-color:rgb(26,27,51);
+    transform:scale(1.1)
+    
+}
+
+.bar{
+    border-color: rgb(58,49,120);
+}
+
+.blobimage{
+    background-image: url("../../public/images/blob.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hello-png{
+    background: url("../../public/images/hello.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.html{
+    background: url("../../public/images/html.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.css{
+    background: url("../../public/images/css.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.js{
+    background: url("../../public/images/js.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.node{
+    background: url("../../public/images/node.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.express{
+    background: url("../../public/images/express.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tailwind{
+    background: url("../../public/images/tailwind.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.aws{
+    background: url("../../public/images/aws.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sql{
+    background: url("../../public/images/sql.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.next{
+    background: url("../../public/images/next.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.react{
+    background: url("../../public/images/react.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.fonts-header{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bolder;
+}
+
+.fonts-content{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    /* font-weight:bold; */
+}
